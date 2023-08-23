@@ -34,6 +34,33 @@ body {
     padding: 40px
 }
 
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 0px;
+
+}
+
+.section-content {
+    position: relative;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
 .personal-info {
-    flex: auto;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+
+.personal-info h1 {
+    margin: 0px;
+}
+
+.image {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
